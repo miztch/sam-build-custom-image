@@ -1,4 +1,4 @@
-FROM public.ecr.aws/sam/build-provided.al2:latest-amd64
+FROM public.ecr.aws/sam/build-provided.al2:1.105.0
 
 # Install Go
 RUN curl -L https://go.dev/dl/go1.21.5.linux-amd64.tar.gz | tar -zx -C /usr/local
